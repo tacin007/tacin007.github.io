@@ -1,0 +1,242 @@
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.facebook-login {
+    background: #f0f2f5;
+    padding-bottom: 132px;
+    padding-top: 92px;
+    display: flex;
+    flex: 1;
+}
+
+.login-sidebar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    padding-right: 32px;
+}
+
+.fb-logo-container {
+    width: 500px;
+    display: flex;
+    justify-content: left;
+    padding: 112px 0 16px;
+}
+
+.fb-logo {
+    height: 106px;
+    margin: -28px;
+}
+
+.login-sidebar .short-desc {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.login-form {
+    flex: 1;
+    margin-top: 50px;
+}
+
+.login-form form {
+	width: 380px;
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+	border-radius: 8px;
+	padding: 10px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-container input {
+    margin: 6px 6px;
+}
+.login-form form .input {
+	width: 364px;
+	/* padding: 16px 14px; */
+	background: #FFFFFF url(/rsrc.php/v3/yO/r/YQNfPR9MJfx.png) repeat-x;
+	border: 1px solid #dddfe2;
+	height: 22px;
+	font-size: 17px;
+	font-weight: 500;
+	border-radius: 6px;
+	margin: 5px;
+	outline: none;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 50px;
+}
+.login-form form .input input {
+    font-size: 17px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.login-form form .input input::placeholder{
+    color: #90949c;
+}
+
+.login-form form .input:focus-within input::placeholder, .login-form form .input:focus-within input::-moz-placeholder {
+    color: #bec3c9;
+}
+.login-form form .input:focus-within {
+    box-shadow: 0 0 0 2px #e7f3ff;
+    border-color: #1877f2;
+    caret-color: #1877f2;
+}
+
+.login-button {
+    background: #1877f2;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    line-height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 364px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.login-button:hover {
+    background: #166fe5;
+}
+
+.form-link {
+    margin-top: 16px;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+}
+.form-link:hover {
+    text-decoration: underline;
+}
+
+.register-button {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    line-height: 48px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background: #36a420;
+}
+
+.bottom-text {
+    width: 400px;
+    text-align: center;
+    font-size: 12px;
+}
+.bottom-text a{
+    color: #1c1e21;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bottom-text a:hover {
+    text-decoration: underline;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 990px;
+    padding-top: 20px;
+}
+.divider{
+    width: 100%;
+	border-bottom: 1px solid #dddfe2;
+	font-size: 1px;
+	height: 8px;
+	margin-bottom: 8px;
+}
+.footer a {
+    color: #8a8d91;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.footer a:nth-child(1) {
+    padding-left: 0;
+}
+
+.footer a.selected {
+    color: #737373;
+    font-weight: bold;
+    cursor: text;
+}
+
+.language-add {
+    background: none;
+    border: 1px solid #ccd0d5;
+    border-radius: 2px;
+    color: rgb(123, 123, 123);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.footer-languages {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    width: 100%;
+}
+.footer-bottom {
+    width: 100%;
+    color: #737373;
+    text-align: left;
+    font-size: 11px;
+    margin: 20px 20px;
+}
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 1030px;
+}
+.footer-links a {
+    padding-left: 20px!important;
+    padding-top: 5px!important;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
